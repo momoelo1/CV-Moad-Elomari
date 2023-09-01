@@ -1,0 +1,605 @@
+body {
+  background-image: url("../src/images/background-img-test.jpg");
+  background-position: center;
+  background-size: cover;
+  animation: slidein 80s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  max-width: 1520px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: center;
+  color: white;
+  letter-spacing: 0.1px;
+}
+
+@keyframes slidein {
+  from {
+    background-position: top;
+    background-size: 3000px;
+  }
+  to {
+    background-position: -100px 0px;
+    background-size: 2750px;
+  }
+}
+
+/******************  HEAD CONTENT ****************/
+
+header {
+  height: 15vh;
+}
+
+.cont-head {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: transparent;
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.cont-head-modified {
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+  background-color: rgba(61, 75, 104, 0.568627451);
+  position: fixed;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  z-index: 1;
+}
+
+/****  NAME/TITLE ****/
+
+.title-div {
+  display: inline-block;
+  float: left;
+  margin: 35px;
+  width: 14%;
+  height: 4.5vh;
+  text-align: center;
+}
+
+.title-div-modified {
+  display: inline-block;
+  height: 4.5vh;
+  width: 13%;
+  margin: 40px;
+  text-align: center;
+}
+
+.title-text-class,
+.title-text-modified {
+  font-size: 30px;
+  text-align: center;
+  color: white;
+}
+
+/**** HEAD IMAGE ****/
+
+.head-img {
+  visibility: hidden;
+}
+
+.head-img-visible {
+  visibility: visible;
+  display: inline-block;
+  float: left;
+  margin: 15px;
+  width: 8%;
+  height: 12vh;
+  border-radius: 50%;
+}
+
+/**** GITHUB LOGO ****/
+
+.github-class {
+  display: inline-block;
+  width: 2%;
+  float: right;
+  margin: 40px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.github-modified {
+  display: inline-block;
+  width: 2%;
+  float: right;
+  margin: 43px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/******************  INTRO CONTENT ****************/
+
+.intro {
+  width: 100%;
+  text-align: center;
+  padding-top: 20vh;
+  font-size: 30px;
+}
+
+.intro-head {
+  width: 30%;
+  margin: 10px auto;
+  color: rgba(4, 1, 9, 0.625);
+}
+
+.intro-paragraph {
+  width: 50%;
+  margin: 0 auto;
+  color: white;
+  lineheight: 2.5rem;
+  textalign: justify;
+  textalignlast: center;
+  textshadow: 1px 1px black;
+}
+
+.bold-html {
+  text-shadow: 2px 2px #f06529;
+}
+
+.bold-css {
+  text-shadow: 2px 2px #083173;
+}
+
+.bold-javascript {
+  text-shadow: 2px 2px #f0db4f;
+}
+
+.middle-hero {
+  display: block;
+  margin: 50px auto;
+}
+
+/******************  BLURRED SECTION CONTENT ****************/
+
+.blurred-section {
+  padding: 5px;
+  text-align: center;
+  width: 100%;
+  height: 95vh;
+  margin: 0 auto;
+  backdrop-filter: blur(5px);
+  background-color: rgba(4, 1, 9, 0.625);
+}
+
+.presentation {
+  width: 100%;
+  height: 65vh;
+  margin: 50px auto;
+}
+
+/**** BLURRED SECTION HEAD ****/
+
+.blurred-section-header {
+  width: 50%;
+  margin: 10px auto;
+  font-size: 25px;
+}
+
+.blurred-text-paragraph {
+  width: 80%;
+  margin: 0 auto;
+}
+
+/******* BLURRED SECTION UL *******/
+
+/****  LEFT UL ****/
+
+.left-ul {
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #8aa8ff;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+}
+
+.left-item {
+  width: 90%;
+  height: 22vh;
+  margin: 53px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffb84d;
+  border-right: 0;
+  border-top: 0;
+}
+
+.hidden-div {
+  opacity: 0;
+}
+
+.visible-div {
+  opacity: 1;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item-img {
+  width: 20%;
+  height: 15vh;
+  margin-bottom: 10px;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+
+.li-img {
+  width: 90%;
+  height: 15vh;
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+.item-text {
+  height: 15vh;
+  width: 70%;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.item-header {
+  color: #8aa8ff;
+}
+
+.item-paragraph {
+  width: 100%;
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+/****  RIGHT UL ****/
+
+.right-ul {
+  list-style-type: none;
+  width: 50%;
+  margin: 0 auto;
+  border: 1px solid #8aa8ff;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+}
+
+.right-item {
+  width: 90%;
+  height: 22vh;
+  margin: 53px auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ffb84d;
+  border-left: 0;
+  border-top: 0;
+}
+
+/******************  LANGUAGES SECTION CONTENT ****************/
+
+/******* PROGRAMMING LANGUAGES CONTAINER *******/
+
+.programming-languages-container {
+  width: 90%;
+  margin: 40px auto;
+}
+
+.programming-languages-modifier {
+  width: 90%;
+  height: 10vh;
+  margin: 40px auto;
+  line-height: 2.5rem;
+  text-align: justify;
+}
+
+
+
+/******* PROGRAMMING LANGUAGES *******/
+
+.programming-languages-div {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.programming-languages-head {
+  width: 12%;
+  margin: 20px auto 5px auto;
+  text-align: center;
+  font-size: 40px;
+  text-shadow: none;
+  color: #8aa8ff;
+}
+
+.programming-languages-info {
+  width: 25%;
+  margin: 10px auto 15px auto;
+}
+
+.programming-languages-headers {
+  display: flex;
+}
+
+.html-language-button,
+.css-language-button,
+.javascript-language-button {
+  width: 15%;
+  margin: 0 auto;
+  text-align: center;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+/**************** JS FUNCTION LANGUAGES CLASSES CHANGING *************/
+
+/****  HTML LANGUAGE CHANGE ****/
+
+.html-language-button {
+  text-shadow: 2px 2px orange;
+  width: 100%;
+  border-top: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+
+.html,
+.css,
+.javascript {
+  display: none;
+}
+
+.html-class-change,
+.css-class-change,
+.javascript-class-change {
+  display: flex;
+}
+
+.html-css-modify,
+.html-javascript-modify {
+  display: none;
+}
+
+/****  CSS LANGUAGE CHANGE ****/
+
+.css-language-button {
+  text-shadow: 2px 2px blue;
+  width: 100%;
+  border-top: 1px solid blue;
+  border-bottom: 1px solid blue;
+}
+
+.css-html-modify,
+.css-javascript-modify {
+  display: none;
+}
+
+/****  JAVASCRIPT LANGUAGE CHANGE ****/
+
+.javascript-language-button {
+  text-shadow: 2px 2px yellow;
+  width: 100%;
+  border-top: 1px solid yellow; 
+  border-bottom: 1px solid yellow;
+}
+
+.javascript-html-modify,
+.javascript-css-modify {
+  display: none;
+}
+
+/**** BOOTSTRAP ****/
+
+
+.bootstrap-section {
+  display: flex;
+  width: 60%;
+  height: 30vh;
+  margin: 2.5vh auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+
+.bootstrap {
+  width: 50%;
+}
+
+.bootstrap-logo-div {
+  display: flex;
+  width: 15%;
+  height: 7vh;
+  margin: 35px auto 0 auto;
+  background-color: #273260;
+}
+
+.bootstrap-img {
+  width: 100%;
+  height: 7vh;
+}
+
+.bootstrap-text-div {
+  width: 90%;
+  height: 25vh;
+  margin: 30px auto;
+}
+
+.bootstrap-text-header {
+  width: 35%;
+  text-align: center;
+  margin: 10px auto 30px auto;
+}
+
+.bootstrap-text-paragraph {
+  font-size: 16px;
+  width: 95%;
+  height: 12vh;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  line-height: 2;
+  text-shadow: none;
+  color: white;
+}
+
+/**** TAILWIND ****/
+
+.tailwind-section {
+  display: flex;
+  width: 60%;
+  height: 30vh;
+  margin: 2.5vh auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+
+.tailwind {
+  width: 50%;
+}
+
+.tailwind-logo-div {
+  display: flex;
+  width: 12%;
+  height: 7vh;
+  margin: 35px auto 0 auto;
+  background-color: #273260;
+}
+
+.tailwind-img {
+  width: 100%;
+  height: 7vh;
+}
+
+.tailwind-text-div {
+  width: 90%;
+  height: 25vh;
+  margin: 30px auto;
+}
+
+.tailwind-text-header {
+  width: 30%;
+  text-align: center;
+  margin: 10px auto 30px auto;
+}
+
+.tailwind-text-paragraph {
+  font-size: 16px;
+  width: 95%;
+  height: 12vh;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  line-height: 2;
+  text-shadow: none;
+  color: white;
+}
+
+/**** SASS/SCSS ****/
+
+.sass-section {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  margin: 2.5vh auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+
+.sass {
+  width: 100%;
+}
+
+.sass-logo-div {
+  display: flex;
+  width: 7%;
+  height: 7vh;
+  margin: 35px auto 0 auto;
+  background-color: #273260;
+}
+
+.sass-img {
+  width: 100%;
+  height: 7vh;
+}
+
+.sass-text-div {
+  width: 90%;
+  height: 25vh;
+  margin: 30px auto;
+}
+
+.sass-text-header {
+  width: 30%;
+  text-align: center;
+  margin: 10px auto 30px auto;
+}
+
+.sass-text-paragraph {
+  font-size: 16px;
+  width: 95%;
+  height: 12vh;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  line-height: 2;
+  text-shadow: none;
+  color: white;
+}
+
+/**** REACT ****/
+
+.react-section {
+  display: flex;
+  width: 30%;
+  height: 30vh;
+  margin: 2.5vh auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+
+.react {
+  width: 100%;
+}
+
+.react-logo-div {
+  display: flex;
+  width: 6%;
+  height: 7vh;
+  margin: 35px auto 0 auto;
+  background-color: #273260;
+}
+
+.react-img {
+  width: 100%;
+  height: 7vh;
+}
+
+.react-text-div {
+  width: 90%;
+  height: 25vh;
+  margin: 30px auto;
+}
+
+.react-text-header {
+  width: 30%;
+  text-align: center;
+  margin: 10px auto 30px auto;
+}
+
+.react-text-paragraph {
+  font-size: 16px;
+  width: 95%;
+  height: 12vh;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  line-height: 2;
+  text-shadow: none;
+  color: white;
+}
