@@ -155,15 +155,6 @@
 }
 
 @media screen and (max-width: 431px) and (min-width: 411px) {
-  .cont-head {
-    background-color: red;
-    height: 9vh;
-  }
-
-  .cont-head-modified {
-    background-color: red;
-    height: 9vh;
-  }
 
   /****  TITLE ****/
 
