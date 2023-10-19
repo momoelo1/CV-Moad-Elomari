@@ -14,11 +14,6 @@ export default function IntroSect({ image }) {
           className="mx-auto rounded-full w-6/12 middle-hero-img"
           src={image}
           alt="samurai"
-          style={{
-            borderRadius: "50%",
-            height: "340px",
-            width: "345px",
-          }}
         />
       </picture>
     </div>

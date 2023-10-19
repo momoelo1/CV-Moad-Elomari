@@ -9,10 +9,10 @@ export default function GitHubLogo() {
       <svg
         aria-hidden="true"
         className="octicon octicon-mark-github"
-        height="30"
+        height="100%"
         version="1.2"
         viewBox="0 0 16 16"
-        width="30"
+        width="100%"
       >
         <path
           fillRule="evenodd"

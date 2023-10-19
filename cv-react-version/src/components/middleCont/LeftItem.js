@@ -1,7 +1,7 @@
 export default function LeftItem({ firstImage, secondImage }) {
   return (
-    <ul className="left-ul col-6">
-      <li className="left-item hidden-div">
+    <ul className="left-ul col-lg-6">
+      <li className="left-item hidden-div first-listItem">
         <div className="item-img">
           <img className="li-img" src={firstImage} alt="first"/>
         </div>
@@ -12,7 +12,7 @@ export default function LeftItem({ firstImage, secondImage }) {
           </p>
         </div>
       </li>
-      <li className="left-item hidden-div">
+      <li className="left-item hidden-div second-listItem">
         <div className="item-img">
           <img className="li-img" src={secondImage} alt="second"/>
         </div>

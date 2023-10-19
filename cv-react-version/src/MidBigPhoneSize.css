@@ -1,0 +1,271 @@
+@media screen and (device-width: 375px) and (device-height: 667px) {
+  .cont-head {
+    height: 10vh;
+  }
+
+  .cont-head-modified {
+    height: 10vh;
+  }
+
+  /****  TITLE ****/
+
+  .title-div {
+    height: 3.7vh;
+    margin: 1.7vh auto auto;
+  }
+
+  .title-div-modified {
+    height: 3.7vh;
+    margin: 3.2vh auto auto 2.7vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 9%;
+    margin: 1vh 1.7vw 0 0;
+  }
+
+  .github-modified {
+    width: 8.4%;
+    margin: 2.5vh 4.5vw 0 0;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 68vh;
+  }
+
+  .blurred-section {
+    height: 105vh;
+  }
+
+  .blurred-text-paragraph {
+    width: 95%;
+    font-size: 24px;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 17vh;
+  }
+
+  .item-text {
+    width: 80%;
+    height: 15vh;
+    margin-top: 1.5vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 17px;
+  }
+
+  .item-img {
+    width: 27%;
+    height: 12vh;
+  }
+
+  .li-img {
+    height: 12vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 30vh;
+    margin: 3.5vh auto;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 45vh;
+    margin: 10px auto auto;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 14%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 28vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 6vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 16px;
+    height: 16vh;
+  }
+}
+
+@media screen and (device-width: 375px) and (device-height: 812px) {
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 27vh;
+    margin: 3.5vh auto;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 41vh;
+    margin: 10px auto auto;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 25.5vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 5.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 17.5px;
+    height: 15vh;
+  }
+}
+
+@media screen and (device-width: 384px) and (device-height: 854px) {
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+    margin-top: 2.5vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 17.5px;
+  }
+
+  .item-img {
+    width: 28%;
+    height: 10.5vh;
+  }
+
+  .li-img {
+    height: 10.5vh;
+  }
+}
+
+@media screen and (device-width: 385px) and (device-height: 854px) {
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+    margin-top: 2vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 17.5px;
+  }
+
+  .item-img {
+    width: 28%;
+    height: 10.5vh;
+  }
+
+  .li-img {
+    height: 10.5vh;
+  }
+}
+
+@media screen and (device-width: 390px) and (device-height: 844px) {
+  /****  TITLE ****/
+
+  .title-div-modified {
+    margin: 3.2vh auto auto 2.5vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    margin: 1.2vh 1.7vw 0 0;
+  }
+
+  .github-modified {
+    margin: 2.4vh 4.5vw 0 0;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+    margin-top: 2vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 17.5px;
+  }
+}
+
+@media screen and (device-width: 392px) and (device-height: 800px) {
+  .title-div-modified {
+    height: 3.2vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 13vh;
+    margin-top: 2vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 18px;
+  }
+}

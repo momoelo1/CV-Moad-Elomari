@@ -1,0 +1,375 @@
+/******************  SMALLER SCREEN WIDTH ****************/
+
+@media screen and (device-width: 393px) and (device-height: 786px) {
+  .title-div {
+    height: 3.2vh;
+    margin: 1.9vh 0 0 0;
+  }
+
+  .title-div-modified {
+    height: 3.3vh;
+    margin: 3.2vh auto 0 2.5vw;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .blurred-section {
+    height: 95vh;
+  }
+}
+
+@media screen and (device-width: 393px) and (device-height: 808px) {
+  .title-div {
+    height: 3.2vh;
+    margin: 1.9vh 0 0 0;
+  }
+
+  .title-div-modified {
+    height: 3.3vh;
+    margin: 3.2vh auto 0 2.5vw;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .blurred-section {
+    height: 95vh;
+  }
+}
+
+@media screen and (device-width: 393px) and (device-height: 873px) {
+  .title-div {
+    height: 3vh;
+    margin: 1.9vh 0 0 0;
+  }
+
+  .title-div-modified {
+    height: 3vh;
+    margin: 3vh auto 0 2.5vw;
+  }
+}
+
+/******************  BIGGER SCREEN WIDTH ****************/
+
+@media screen and (device-width: 430px) and (device-height: 932px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-header,
+  .item-paragraph {
+    font-size: 20px;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 20px;
+    height: 14.5vh;
+  }
+}
+
+@media screen and (device-width: 428px) and (device-height: 926px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+    margin-top: 2vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 19px;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 20px;
+    height: 14.5vh;
+  }
+}
+
+@media screen and (device-width: 414px) and (device-height: 869px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 919px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+    margin-top: 2vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 915px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 914px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 12vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 892px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 883px) {
+  /****  TITLE ****/
+
+  .title-div {
+    margin: 2vh 0 0 0;
+  }
+
+  .title-div-modified {
+    margin: 3.2vh auto 0 2.4vw;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 869px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 94vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 846px) {
+  .title-div-modified {
+    margin: 3.2vh auto 0 2.4vw;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 13vh;
+    margin-top: 1.5vh;
+  }
+
+  .item-img {
+    height: 11vh;
+  }
+
+  .li-img {
+    height: 11vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 830px) {
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    height: 3.3vh;
+  }
+
+  .title-div-modified {
+    margin: 3.2vh auto 0 2.4vw;
+    height: 3.4vh;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-modified {
+    margin: 2.6vh 4.1vw 0 0;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 13vh;
+    margin-top: 1.5vh;
+  }
+
+  .item-img {
+    height: 11vh;
+  }
+
+  .li-img {
+    height: 11vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 823px) {
+
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    height: 3.4vh;
+  }
+
+  .title-div-modified {
+    margin: 3.2vh auto 0 2.4vw;
+    height: 3.4vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .item-text {
+    height: 13vh;
+    margin-top: 1.5vh;
+  }
+
+  .item-img {
+    height: 11.5vh;
+  }
+
+  .li-img {
+    height: 11.5vh;
+  }
+}

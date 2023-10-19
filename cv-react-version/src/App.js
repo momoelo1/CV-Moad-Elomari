@@ -11,6 +11,7 @@ import BootstrapLogo from "./images/bootstrap-logo.png";
 import TailwindLogo from "./images/tailwind-logo.png";
 import SassLogo from "./images/sass-logo.png";
 import ReactLogo from "./images/react-logo.png";
+import JQueryLogo from "./images/jQuery-logo.png";
 
 const user = "Moad Elomari";
 
@@ -26,10 +27,11 @@ function App() {
         fourthImg={Testing}
       />
       <FooterContent
-        firstImage={BootstrapLogo}
-        secondImage={TailwindLogo}
-        thirdImage={SassLogo}
-        fourthImage={ReactLogo}
+        bsImage={BootstrapLogo}
+        tailImage={TailwindLogo}
+        sassImage={SassLogo}
+        reactImage={ReactLogo}
+        jQImage={JQueryLogo}
       />
     </div>
   );

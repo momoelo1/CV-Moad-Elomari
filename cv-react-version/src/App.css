@@ -29,9 +29,6 @@ body {
 
 /******************  HEAD CONTENT ****************/
 
-header {
-  height: 15vh;
-}
 
 .cont-head {
   display: block;
@@ -141,10 +138,10 @@ header {
   width: 50%;
   margin: 0 auto;
   color: white;
-  lineheight: 2.5rem;
-  textalign: justify;
-  textalignlast: center;
-  textshadow: 1px 1px black;
+  line-height: 2.5rem;
+  text-align: justify;
+  text-align-last: center;
+  text-shadow: 1px 1px black;
 }
 
 .bold-html {
@@ -162,6 +159,12 @@ header {
 .middle-hero {
   display: block;
   margin: 50px auto;
+}
+
+.middle-hero-img {
+  width: 345px;
+  height: 340px;
+  border-radius: 50%;
 }
 
 /******************  BLURRED SECTION CONTENT ****************/
@@ -187,12 +190,12 @@ header {
 .blurred-section-header {
   width: 50%;
   margin: 10px auto;
-  font-size: 25px;
 }
 
 .blurred-text-paragraph {
   width: 80%;
   margin: 0 auto;
+  font-size: 25px;
 }
 
 /******* BLURRED SECTION UL *******/
@@ -219,6 +222,7 @@ header {
   border: 1px solid #ffb84d;
   border-right: 0;
   border-top: 0;
+  border-left: 0;
 }
 
 .hidden-div {
@@ -284,178 +288,115 @@ header {
   border: 1px solid #ffb84d;
   border-left: 0;
   border-top: 0;
+  border-right: 0;
 }
 
-/******************  LANGUAGES SECTION CONTENT ****************/
+/******* LIBRARIES CONTAINER *******/
 
-/******* PROGRAMMING LANGUAGES CONTAINER *******/
-
-.programming-languages-container {
-  width: 90%;
+.programmingLibraries {
+  width: 95%;
   margin: 40px auto;
 }
 
-.programming-languages-modifier {
-  width: 90%;
-  height: 10vh;
-  margin: 40px auto;
-  line-height: 2.5rem;
-  text-align: justify;
-}
-
-
-
-/******* PROGRAMMING LANGUAGES *******/
-
-.programming-languages-div {
-  width: 100%;
-  margin: 0 auto;
-}
-
-.programming-languages-head {
-  width: 12%;
-  margin: 20px auto 5px auto;
-  text-align: center;
+.progLangHead {
   font-size: 40px;
-  text-shadow: none;
-  color: #8aa8ff;
 }
 
-.programming-languages-info {
-  width: 25%;
-  margin: 10px auto 15px auto;
+/******* BUTTONS CONTAINER *******/
+
+.cssButtonRemove {
+  display: none;
 }
 
-.programming-languages-headers {
+.jsButtonRemove {
+  display: none;
+}
+
+/******* CSS LIBRARIES CONTAINER *******/
+
+.cssLibraries {
+  display: none;
+}
+
+.cssLibsModified {
   display: flex;
+  flex-direction: row;
 }
 
-.html-language-button,
-.css-language-button,
-.javascript-language-button {
+.jsLibrariesHeader {
+  color: yellow;
+  margin: 2vh 5vw;
+}
+
+.cssLibrariesHeader {
+  color: blue;
+  margin: 2vh 5vw;
+}
+
+.cssLibrariesHeader,
+.jsLibrariesHeader {
   width: 15%;
-  margin: 0 auto;
-  text-align: center;
   background: none;
-  border: none;
-  color: white;
+  border: 1px solid white;
   font-size: 30px;
   font-weight: 500;
 }
 
-/**************** JS FUNCTION LANGUAGES CLASSES CHANGING *************/
+/***** BOOTSTRAP *****/
 
-/****  HTML LANGUAGE CHANGE ****/
-
-.html-language-button {
-  text-shadow: 2px 2px orange;
-  width: 100%;
-  border-top: 1px solid orange;
-  border-bottom: 1px solid orange;
+.bootstrap {
+  width: 40%;
 }
-
-.html,
-.css,
-.javascript {
-  display: none;
-}
-
-.html-class-change,
-.css-class-change,
-.javascript-class-change {
-  display: flex;
-}
-
-.html-css-modify,
-.html-javascript-modify {
-  display: none;
-}
-
-/****  CSS LANGUAGE CHANGE ****/
-
-.css-language-button {
-  text-shadow: 2px 2px blue;
-  width: 100%;
-  border-top: 1px solid blue;
-  border-bottom: 1px solid blue;
-}
-
-.css-html-modify,
-.css-javascript-modify {
-  display: none;
-}
-
-/****  JAVASCRIPT LANGUAGE CHANGE ****/
-
-.javascript-language-button {
-  text-shadow: 2px 2px yellow;
-  width: 100%;
-  border-top: 1px solid yellow; 
-  border-bottom: 1px solid yellow;
-}
-
-.javascript-html-modify,
-.javascript-css-modify {
-  display: none;
-}
-
-/**** BOOTSTRAP ****/
-
 
 .bootstrap-section {
   display: flex;
-  width: 60%;
+  width: 80%;
   height: 30vh;
   margin: 2.5vh auto;
   backdrop-filter: blur(10px);
   border: 1px solid #ffb84d;
 }
 
-.bootstrap {
-  width: 50%;
-}
-
-.bootstrap-logo-div {
-  display: flex;
-  width: 15%;
+.bootstrapImgDiv {
+  width: 12%;
   height: 7vh;
   margin: 35px auto 0 auto;
   background-color: #273260;
 }
 
-.bootstrap-img {
+.bootstrapImg {
   width: 100%;
   height: 7vh;
 }
 
 .bootstrap-text-div {
-  width: 90%;
-  height: 25vh;
-  margin: 30px auto;
+  width: 95%;
+  height: 28vh;
+  margin: auto;
 }
 
 .bootstrap-text-header {
-  width: 35%;
+  width: 37%;
   text-align: center;
-  margin: 10px auto 30px auto;
+  margin: 1vh auto 6vh auto;
 }
 
 .bootstrap-text-paragraph {
   font-size: 16px;
-  width: 95%;
+  width: 97%;
   height: 12vh;
-  margin: 30px auto 0 auto;
+  margin: 0 auto;
   text-align: center;
   line-height: 2;
   text-shadow: none;
   color: white;
 }
 
-/**** TAILWIND ****/
+/***** TAILWIND *****/
 
 .tailwind-section {
   display: flex;
-  width: 60%;
+  width: 80%;
   height: 30vh;
   margin: 2.5vh auto;
   backdrop-filter: blur(10px);
@@ -463,39 +404,38 @@ header {
 }
 
 .tailwind {
-  width: 50%;
+  width: 40%;
 }
 
-.tailwind-logo-div {
-  display: flex;
+.tailwindImgDiv {
   width: 12%;
   height: 7vh;
   margin: 35px auto 0 auto;
   background-color: #273260;
 }
 
-.tailwind-img {
+.tailwindImg {
   width: 100%;
   height: 7vh;
 }
 
 .tailwind-text-div {
-  width: 90%;
-  height: 25vh;
-  margin: 30px auto;
+  width: 95%;
+  height: 28vh;
+  margin: auto;
 }
 
 .tailwind-text-header {
-  width: 30%;
+  width: 32%;
   text-align: center;
-  margin: 10px auto 30px auto;
+  margin: 1vh auto 6vh auto;
 }
 
 .tailwind-text-paragraph {
   font-size: 16px;
-  width: 95%;
+  width: 97%;
   height: 12vh;
-  margin: 30px auto 0 auto;
+  margin: auto;
   text-align: center;
   line-height: 2;
   text-shadow: none;
@@ -504,60 +444,71 @@ header {
 
 /**** SASS/SCSS ****/
 
+.sass {
+  width: 40%;
+}
+
 .sass-section {
   display: flex;
-  width: 30%;
+  width: 80%;
   height: 30vh;
   margin: 2.5vh auto;
   backdrop-filter: blur(10px);
   border: 1px solid #ffb84d;
 }
 
-.sass {
-  width: 100%;
-}
-
-.sass-logo-div {
+.sassImgDiv {
   display: flex;
-  width: 7%;
+  width: 12%;
   height: 7vh;
   margin: 35px auto 0 auto;
   background-color: #273260;
 }
 
-.sass-img {
+.sassImg {
   width: 100%;
   height: 7vh;
 }
 
 .sass-text-div {
-  width: 90%;
-  height: 25vh;
-  margin: 30px auto;
+  width: 95%;
+  height: 28vh;
+  margin: auto;
 }
 
 .sass-text-header {
-  width: 30%;
+  width: 20%;
   text-align: center;
-  margin: 10px auto 30px auto;
+  margin: 1vh auto 6vh auto;
 }
 
 .sass-text-paragraph {
   font-size: 16px;
-  width: 95%;
+  width: 97%;
   height: 12vh;
-  margin: 30px auto 0 auto;
+  margin: auto;
   text-align: center;
   line-height: 2;
   text-shadow: none;
   color: white;
 }
 
-/**** REACT ****/
+/******* JS LIBRARIES CONTAINER *******/
+
+.jsLibraries {
+  display: none;
+}
+
+.jsLibsModified {
+  display: flex;
+  flex-direction: row;
+}
+
+/***** REACT *****/
 
 .react-section {
   display: flex;
-  width: 30%;
+  width: 50%;
   height: 30vh;
   margin: 2.5vh auto;
   backdrop-filter: blur(10px);
@@ -565,38 +516,87 @@ header {
 }
 
 .react {
-  width: 100%;
+  width: 50%;
 }
 
-.react-logo-div {
-  display: flex;
-  width: 6%;
+.reactImgDiv {
+  width: 8%;
   height: 7vh;
   margin: 35px auto 0 auto;
   background-color: #273260;
 }
 
-.react-img {
+.reactImg {
   width: 100%;
   height: 7vh;
 }
 
 .react-text-div {
-  width: 90%;
-  height: 25vh;
-  margin: 30px auto;
+  width: 95%;
+  height: 28vh;
+  margin: auto;
 }
 
 .react-text-header {
-  width: 30%;
+  width: 32%;
   text-align: center;
-  margin: 10px auto 30px auto;
+  margin: 1vh auto 5vh auto;
 }
 
 .react-text-paragraph {
   font-size: 16px;
   width: 95%;
-  height: 12vh;
+  height: 15.5vh;
+  margin: 30px auto 0 auto;
+  text-align: center;
+  line-height: 2;
+  text-shadow: none;
+  color: white;
+}
+
+/***** JQUERY *****/
+
+.jQuery {
+  width: 50%;
+}
+
+.jQuery-section {
+  display: flex;
+  width: 50%;
+  height: 30vh;
+  margin: 2.5vh auto;
+  backdrop-filter: blur(10px);
+  border: 1px solid #ffb84d;
+}
+
+.jQueryImgDiv {
+  width: 8%;
+  height: 7vh;
+  margin: 35px auto 0 auto;
+  background-color: #273260;
+}
+
+.jQueryImg {
+  width: 100%;
+  height: 7vh;
+}
+
+.jQuery-text-div {
+  width: 95%;
+  height: 28vh;
+  margin: auto;
+}
+
+.jQuery-text-header {
+  width: 30%;
+  text-align: center;
+  margin: 1vh auto 5vh auto;
+}
+
+.jQuery-text-paragraph {
+  font-size: 16px;
+  width: 95%;
+  height: 15.5vh;
   margin: 30px auto 0 auto;
   text-align: center;
   line-height: 2;

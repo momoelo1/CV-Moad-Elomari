@@ -19,7 +19,7 @@ export default function RightUItem({thirdImage, fourthImage}) {
         <div className="item-text">
           <h4 className="item-header">Testing</h4>
           <p className="item-paragraph">
-            Testing funzionalità dell'interfaccia, di compatibilità e prestazioni.
+            Testing dell'interfaccia, di compatibilità e prestazioni.
           </p>
         </div>
       </li>
