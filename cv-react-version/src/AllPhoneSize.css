@@ -1,0 +1,284 @@
+@media screen and (max-width: 430.98px) and (min-width: 320px) {
+
+  /******************  HEAD CONTENT ****************/
+  .cont-head {
+    background-color: blue;
+    height: 10vh;
+  }
+
+  .cont-head-modified {
+    backdrop-filter: none;
+    background-color: blue;
+    padding: 0;
+    height: 10vh;
+  }
+
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 34%;
+    height: 3vh; 
+    margin: 2.2vh 0 0 0;
+  }
+
+  .title-div-modified {
+    width: 32%;
+    height: 3vh;
+    float: left;
+    margin: 3.6vh auto 0 2.8vw;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 9%;
+    margin: 1.5vh 1.7vw 0 0;
+    border-radius: 50%;
+  }
+
+  .github-modified {
+    width: 8.4%;
+    margin: 2.8vh 4.5vw 0 0;
+    border-radius: 50%;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    display: none;
+  }
+
+  /******************  INTRO CONTENT ****************/
+
+  .intro {
+    padding-top: 12vh;
+    font-size: 17px;
+  }
+
+  .intro-head {
+    width: 70%;
+  }
+
+  .intro-paragraph {
+    width: 90%;
+    line-height: 2rem;
+    text-align: center;
+    word-spacing: 4px;
+  }
+
+  .middle-hero-img {
+    width: 245px;
+    height: 240px;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .blurred-section {
+    width: 100%;
+    height: 90vh;
+    margin: 0 auto;
+  }
+
+  .blurred-section-header {
+    width: 100%;
+    margin: 10px auto 0 auto;
+  }
+
+  .blurred-text-header {
+    font-size: 25px;
+  }
+
+  .blurred-text-paragraph {
+    width: 100%;
+    font-size: 20px; 
+  }
+
+  /****  LEFT UL ****/
+
+  .left-ul {
+    width: 100%;
+    border: none;
+  }
+
+  .left-item {
+    width: 100%;
+    height: 15vh;
+    margin: 0 auto;
+  }
+
+  .first-listItem {
+    border-top: 1px solid #ffb84d;
+  }
+
+  /****  RIGHT UL ****/
+
+  .right-ul {
+    width: 100%;
+    border: none;
+    margin: 0 auto 4.5vh auto;
+  }
+
+  .right-item {
+    width: 100%;
+    margin: 0 auto;
+    height: 15vh;
+  }
+
+  .item-text {
+    width: 70%;
+    height: 11vh;
+    margin-top: 1vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 15px;
+  }
+
+  .item-img {
+    width: 23%;
+    height: 10vh;
+    margin-bottom: 0;
+    margin-left: 1vw;
+  }
+
+  .li-img {
+    width: 100%;
+    height: 10vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .progLangHead {
+    font-size: 40px;
+    margin-bottom: 7vh;
+    color: #8aa8ff;
+  }
+
+  .cssLibsModified {
+    display: flex;
+    flex-direction: column;
+    
+  }
+
+  .cssLibrariesHeader {
+    width: 25%;
+    margin: 0 10vw;
+  }
+
+  .jsLibrariesHeader {
+    width: 25%;
+    margin: 0 10vw;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .bootstrap {
+    margin: 7vh auto 11vh auto;
+  }
+
+  .tailwind {
+    margin: 2.5vh auto 11vh auto;
+  }
+
+  .sass {
+    margin: 2vh auto 10vh auto;
+  }
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section {
+    width: 98%;
+    margin: 0.5vh auto;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div {
+    width: 95%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header {
+    margin-bottom: 4.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    height: 18vh;
+  }
+
+  .sass-text-paragraph {
+    line-height: 2;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv {
+    width: 17%;
+    margin: 15px auto 15px auto;
+  }
+
+  .jsLibsModified {
+    flex-direction: column;
+  }
+
+  .react,
+  .jQuery {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .react {
+    margin: 2vh auto 11vh auto;
+  }
+
+  .jQuery {
+    margin: 5vh auto 11vh auto;
+  }
+
+  .react-section,
+  .jQuery-section {
+    width: 98%;
+    margin: 0.5vh auto;
+  }
+
+  .react-text-div,
+  .jQuery-text-div {
+    width: 95%;
+  }
+
+  .react-text-header {
+    width: 34%;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    height: 18.3vh;
+    width: 98%;
+  }
+
+  .react-text-header,
+  .jQuery-text-header {
+    margin: 1vh auto auto;
+  }
+
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 15%;
+    margin: 15px auto 15px auto;
+  }
+}

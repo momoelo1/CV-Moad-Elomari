@@ -1,0 +1,388 @@
+@media screen and (max-width: 321px) and (min-height: 658px) {
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 40%;
+    height: 3.2vh;
+    margin: 1.7vh 0 0 0;
+  }
+
+  .title-div-modified {
+    width: 38%;
+    height: 3.3vh;
+    margin: 3.1vh auto 0 2.8vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 9.9%;
+    margin: 1vh 1.7vw 0 0;
+  }
+
+  .github-modified {
+    width: 9.5%;
+    margin: 2.4vh 4.5vw 0 0;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 68vh;
+  }
+
+  .blurred-section {
+    height: 99vh;
+  }
+
+  .blurred-section-header {
+    margin: 10px auto -20px auto;
+  }
+
+  .blurred-text-paragraph {
+    font-size: 20px;
+    width: 95%;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 17vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 14px;
+  }
+
+  .item-text {
+    width: 80%;
+    height: 13vh;
+    margin-top: 15px;
+  }
+
+  .item-img {
+    width: 26%;
+    height: 12vh;
+  }
+
+  .li-img {
+    height: 12vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 30vh;
+    margin: 3.5vh auto;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 45vh;
+    margin: 10px auto auto;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 15%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 28vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 14px;
+    height: 17vh;
+  }
+}
+
+@media screen and (max-width: 320px) and (height: 568px) {
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 40%;
+    height: 3.8vh;
+    margin: 1.3vh 0 0 0;
+  }
+
+  .title-div-modified {
+    width: 38%;
+    height: 3.8vh;
+    margin: 3.1vh auto 0 2.8vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 9.9%;
+    margin: 1vh 1.7vw 0 0;
+  }
+
+  .github-modified {
+    width: 9.5%;
+    margin: 2.4vh 4.5vw 0 0;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 72vh;
+  }
+
+  .blurred-section {
+    height: 107vh;
+  }
+
+  .blurred-section-header {
+    margin: 10px auto -20px auto;
+  }
+
+  .blurred-text-paragraph {
+    font-size: 20px;
+    width: 95%;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 18vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 14px;
+  }
+
+  .item-text {
+    width: 80%;
+    height: 15vh;
+    margin-top: 15px;
+  }
+
+  .item-img {
+    width: 26%;
+    height: 13vh;
+  }
+
+  .li-img {
+    height: 13vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 35vh;
+    margin: 3.5vh auto;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 50vh;
+    margin: 10px auto auto;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 14%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 33vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 7vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 14px;
+    height: 19.5vh;
+  }
+}
+
+@media screen and (max-width: 320px) and (height: 480px) {
+  .cont-head {
+    background-color: blue;
+    height: 11.5vh;
+  }
+
+  .cont-head-modified {
+    background-color: blue;
+    height: 11.5vh;
+  }
+
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 40%;
+    height: 4.5vh;
+    margin: 1.4vh auto auto;
+  }
+
+  .title-div-modified {
+    width: 37%;
+    height: 4.5vh;
+    margin: 3.5vh auto 0 3.2vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    margin: 0.5vh 1.7vw 0 0;
+  }
+
+  .github-modified {
+    margin: 2vh 4.5vw 0 0;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 86vh;
+  }
+
+  .blurred-section {
+    height: 130vh;
+  }
+
+  .blurred-section-header {
+    margin: 10px auto -10px auto;
+  }
+
+  .blurred-text-paragraph {
+    width: 95%;
+    font-size: 21px;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 21.5vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 13.5px;
+  }
+
+  .item-text {
+    width: 80%;
+    height: 17.5vh;
+    margin-top: 15px;
+  }
+
+  .item-img {
+    width: 25%;
+    height: 14vh;
+  }
+
+  .li-img {
+    height: 14vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 40vh;
+    margin: 3.5vh auto;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 55vh;
+    margin: 10px auto auto;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 13%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 38vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 7vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 13.5px;
+    height: 23.5vh;
+  }
+}
