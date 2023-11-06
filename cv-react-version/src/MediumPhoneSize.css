@@ -1,4 +1,4 @@
-@media screen and (max-width: 360px) and (height: 640px) {
+@media screen and (device-width: 360px) and (device-height: 640px) {
   .cont-head {
     background-color: blue;
   }
@@ -136,7 +136,150 @@
   }
 }
 
-@media screen and (max-width: 360px) and (height: 740px) {
+@media screen and (device-width: 360px) and (device-height: 718px) {
+
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 60vh;
+  }
+
+  .blurred-section {
+    height: 87vh;
+  }
+
+  .blurred-text-header {
+    font-size: 27px;
+  }
+
+  .blurred-text-paragraph {
+    width: 100%;
+    font-size: 25px;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 27vh;
+    margin: 3.5vh auto;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 41vh;
+    margin: 10px auto auto;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 16.5%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 25vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 16px;
+    height: 14.5vh;
+    letter-spacing: 1px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 720px) {
+  .title-div {
+    width: 38%;
+    height: 3vh;
+  }
+
+  .title-div-modified {
+    width: 36%;
+    height: 3vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 15vh;
+  }
+
+  .item-text {
+    width: 80%;
+    height: 13vh;
+    margin-top: 1.5vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 16px;
+  }
+
+  .item-img {
+    width: 27%;
+    height: 11vh;
+  }
+
+  .li-img {
+    height: 11vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 60vh;
+  }
+
+  .blurred-section {
+    height: 92vh;
+  }
+
+  .blurred-text-paragraph {
+    width: 95%;
+    font-size: 23px;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 43vh;
+    margin: 10px auto auto;
+  }
+}
+
+@media screen and (device-width: 360px) and (device-height: 740px) {
   /****  NAME/TITLE ****/
 
   .title-div {
@@ -266,7 +409,7 @@
   }
 }
 
-@media screen and (max-width: 360px) and (height: 780px) {
+@media screen and (device-width: 360px) and (device-height: 780px) {
   .title-div {
     width: 38%;
     height: 2.8vh;
@@ -294,8 +437,6 @@
   .item-paragraph {
     font-size: 16px;
   }
-
-
 
   .item-img {
     width: 27%;
@@ -359,43 +500,17 @@
   }
 }
 
-@media screen and (max-width: 360px) and (height: 720px) {
-  
+@media screen and (device-width: 360px) and (device-height: 800px) {
+
+  /****  TITLE ****/
+
   .title-div {
-    width: 38%;
-    height: 3vh;
+    height: 2.7vh;
   }
 
   .title-div-modified {
-    width: 36%;
-    height: 3vh;
-  }
-
-  /****  ITEM TEXT/IMAGES ****/
-
-  .left-item,
-  .right-item {
-    height: 15vh;
-  }
-
-  .item-text {
-    width: 80%;
-    height: 13vh;
-    margin-top: 1.5vh;
-  }
-
-  .item-header,
-  .item-paragraph {
-    font-size: 16px;
-  }
-
-  .item-img {
-    width: 27%;
-    height: 11vh;
-  }
-
-  .li-img {
-    height: 11vh;
+    height: 2.7vh;
+    margin-top: 3.5vh;
   }
 
   /******************  BLURRED SECTION CONTENT ****************/
@@ -408,21 +523,67 @@
     height: 92vh;
   }
 
+  .blurred-text-header {
+    font-size: 27px;
+  }
+
   .blurred-text-paragraph {
-    width: 95%;
-    font-size: 23px;
+    width: 100%;
+    font-size: 25px;
   }
 
   /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 27vh;
+    margin: 3.5vh auto;
+  }
 
   .bootstrap,
   .tailwind,
   .sass,
   .react,
   .jQuery {
-    height: 43vh;
+    height: 41vh;
     margin: 10px auto auto;
   }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 16.5%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 25vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 16px;
+    height: 14.5vh;
+    letter-spacing: 1px;
+    line-height: 1.6;
+  }
 }
-
-

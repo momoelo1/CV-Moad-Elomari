@@ -107,6 +107,28 @@
   }
 }
 
+@media screen and (device-width: 414px) and (device-height: 896px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19px;
+  }
+}
+
 @media screen and (device-width: 414px) and (device-height: 869px) {
   /******************  BLURRED SECTION CONTENT ****************/
 
@@ -116,6 +138,217 @@
 
   .blurred-section {
     height: 95vh;
+  }
+}
+
+@media screen and (device-width: 414px) and (device-height: 846px) {
+  /****  TITLE ****/
+
+  .title-div {
+    height: 3.2vh;
+  }
+
+  .title-div-modified {
+    height: 3.2vh;
+    margin-top: 3.2vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
+  }
+}
+
+@media screen and (device-width: 414px) and (device-height: 736px) {
+  /****  TITLE ****/
+
+  .title-div {
+    width: 37%;
+    height: 3.4vh;
+    margin-top: 1.5vh;
+  }
+
+  .title-div-modified {
+    width: 36%;
+    height: 3.3vh;
+    margin-top: 2.8vh;
+    margin-left: 2vw;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 20.5px;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 9.5%;
+    margin-top: 0.7vh;
+  }
+
+  .github-modified {
+    width: 9%;
+    margin-top: 2vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 72vh;
+  }
+
+  .blurred-section {
+    height: 108vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 18vh;
+  }
+
+  .item-text {
+    height: 14.5vh;
+    margin-top: 2vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 18.5px;
+  }
+
+  .item-img {
+    width: 29%;
+    height: 12.5vh;
+  }
+
+  .li-img {
+    height: 12.5vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 30vh;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 44vh;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 28vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin-bottom: 5.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 18.5px;
+    height: 17vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 1004px) {
+  /****  TITLE ****/
+
+  .title-div {
+    width: 41%;
+  }
+
+  .title-div-modified {
+    width: 39%;
+    margin-top: 3vh;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 24px;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-modified {
+    margin-top: 2.5vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 16vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 19px;
+  }
+
+  .item-text {
+    height: 11.5vh;
+    margin-top: 2vh;
+  }
+
+  .item-img {
+    width: 28%;
+    height: 10vh;
+  }
+
+  .li-img {
+    height: 10vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 18.5%;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 19.5px;
+    height: 14.5vh;
   }
 }
 
@@ -189,6 +422,18 @@
   .react-text-paragraph,
   .jQuery-text-paragraph {
     font-size: 19px;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 906px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 64vh;
+  }
+
+  .blurred-section {
+    height: 95vh;
   }
 }
 
@@ -336,7 +581,6 @@
 }
 
 @media screen and (device-width: 412px) and (device-height: 823px) {
-
   /****  NAME/TITLE ****/
 
   .title-div {
@@ -371,5 +615,320 @@
 
   .li-img {
     height: 11.5vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 732px) {
+  .cont-head {
+    height: 10vh;
+  }
+
+  .cont-head-modified {
+    height: 10vh;
+  }
+
+  /****  TITLE ****/
+
+  .title-div {
+    height: 3.7vh;
+  }
+
+  .title-div-modified {
+    height: 3.7vh;
+    margin-top: 3.4vh;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-modified {
+    margin: 2.7vh 4.1vw 0 0;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 76vh;
+  }
+
+  .blurred-section {
+    height: 113vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 19vh;
+  }
+
+  .item-text {
+    height: 15vh;
+  }
+
+  .item-img {
+    width: 29%;
+    height: 13vh;
+  }
+
+  .li-img {
+    height: 13vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 29vh;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 43vh;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 15.5%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 27vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    height: 16vh;
+  }
+}
+
+@media screen and (device-width: 412px) and (device-height: 690px) {
+
+  /****  TITLE ****/
+
+  .title-div {
+    width: 37%;
+    height: 3.6vh;
+    margin-top: 1.5vh;
+  }
+
+  .title-div-modified {
+    width: 36%;
+    height: 3.6vh;
+    margin-top: 2.9vh;
+    margin-left: 2vw;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 21px;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    margin-top: 0.8vh;
+  }
+
+  .github-modified {
+    margin-top: 2.2vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 74vh;
+  }
+
+  .blurred-section {
+    height: 113vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 18.5vh;
+  }
+
+  .item-text {
+    height: 15.5vh;
+  }
+
+  .item-img {
+    width: 29%;
+    height: 13.5vh;
+  }
+
+  .li-img {
+    height: 13.5vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 29vh;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 44vh;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 15%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 27.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 17.5px;
+    height: 16.5vh;
+  }
+}
+
+@media screen and (device-width: 411px) and (device-height: 731px) {
+  /****  TITLE ****/
+
+  .title-div {
+    width: 37%;
+    height: 3.4vh;
+    margin-top: 1.5vh;
+  }
+
+  .title-div-modified {
+    width: 36%;
+    height: 3.5vh;
+    margin-top: 3vh;
+    margin-left: 2vw;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 21px;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    margin-top: 0.8vh;
+  }
+
+  .github-modified {
+    margin-top: 2.2vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 74vh;
+  }
+
+  .blurred-section {
+    height: 112vh;
+  }
+
+  /****  ITEM TEXT/IMAGES ****/
+
+  .left-item,
+  .right-item {
+    height: 18.5vh;
+  }
+
+  .item-text {
+    height: 15vh;
+  }
+
+  .item-header,
+  .item-paragraph {
+    font-size: 18.5px;
+  }
+
+  .item-img {
+    width: 28%;
+    height: 12.5vh;
+  }
+
+  .li-img {
+    height: 12.5vh;
+  }
+
+  /******************  LANGUAGES SECTION CONTENT ****************/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section,
+  .react-section,
+  .jQuery-section {
+    height: 29vh;
+  }
+
+  .bootstrap,
+  .tailwind,
+  .sass,
+  .react,
+  .jQuery {
+    height: 43vh;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 15%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 27vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 18px;
+    height: 16vh;
   }
 }
