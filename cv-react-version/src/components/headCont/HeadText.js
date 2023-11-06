@@ -51,10 +51,6 @@ export default function HeadText({ name, image }) {
         <img
           className="head-img"
           id="hero-img1"
-          style={{
-            height: "90px",
-            width: "90px",
-          }}
           src={image}
           alt="samurai"
         />

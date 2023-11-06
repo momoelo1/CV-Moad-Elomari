@@ -1,0 +1,870 @@
+@media screen and (device-width: 601px) and (device-height: 926px) {
+  .cont-head {
+    height: 12vh;
+  }
+
+  .cont-head-modified {
+    height: 12vh;
+  }
+
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 37%;
+    height: 3.9vh;
+    margin-top: 3vh;
+    margin-left: 2vw;
+  }
+
+  .title-div-modified {
+    height: 3.9vh;
+    width: 37%;
+    margin-top: 3.5vh;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 30px;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin-top: 1vh;
+    width: 12.5vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    margin: 20px;
+  }
+
+  .github-modified {
+    margin-top: 2.7vh;
+  }
+
+  /******************  INTRO CONTENT ****************/
+
+  .intro {
+    font-size: 20px;
+  }
+
+  .intro-head {
+    font-size: 40px;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 50vh;
+  }
+
+  .blurred-section {
+    height: 83vh;
+  }
+
+  /**** BLURRED SECTION HEAD ****/
+
+  .blurred-text-header {
+    font-size: 35px;
+  }
+
+  .blurred-text-paragraph {
+    font-size: 30px;
+  }
+
+  /******* BLURRED SECTION UL *******/
+
+  /****  LEFT UL ****/
+
+  .left-ul,
+  .right-ul {
+    height: 50vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17vh;
+  }
+
+  .item-img {
+    width: 30%;
+    height: 11vh;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+
+  .li-img {
+    height: 11vh;
+  }
+
+  .item-text {
+    height: 13vh;
+    margin-top: 10px;
+  }
+
+  .item-header {
+    font-size: 17.5px;
+  }
+
+  .item-paragraph {
+    font-size: 15.5px;
+  }
+
+  /******* LIBRARIES CONTAINER *******/
+
+  .progLangHead {
+    font-size: 50px;
+  }
+
+  .cssLibrariesHeader,
+  .jsLibrariesHeader {
+    font-size: 30px;
+  }
+
+  /******* CSS LIBRARIES CONTAINER *******/
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section {
+    width: 85%;
+    height: 30vh;
+  }
+
+  .react-section,
+  .jQuery-section {
+    width: 85%;
+    height: 30vh;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 13%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div,
+  .react-text-div,
+  .jQuery-text-div {
+    height: 28vh;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    font-size: 35px;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 21px;
+    height: 16vh;
+    line-height: 1.8;
+    letter-spacing: 0.9px;
+  }
+
+  .react-text-paragraph {
+    letter-spacing: 0.7px;
+  }
+
+  .jQuery-text-paragraph {
+    letter-spacing: 0.5px;
+  }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1076px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 73vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17vh;
+  }
+
+  .item-paragraph {
+    height: 9vh;
+    margin-top: 25px;
+    font-size: 21px;
+  }
+
+  .item-text {
+    height: 15vh;
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 12.5%;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 27px;
+    height: 21vh;
+    line-height: 2;
+    letter-spacing: 0.9px;
+  }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 0.5px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    letter-spacing: 1.9px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (device-width: 768px) and (device-height: 1024px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 73vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17vh;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 11.5%;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 27px;
+    height: 21vh;
+    line-height: 1.9;
+    letter-spacing: 0.9px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    letter-spacing: 1.9px;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (device-width: 884px) and (device-height: 1104px) {
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin-top: 1vh;
+    height: 9vh;
+  }
+
+  /******************  INTRO CONTENT ****************/
+
+  .intro {
+    font-size: 32px;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 73vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17.5vh;
+  }
+
+  .item-img {
+    width: 28%;
+    height: 13.5vh;
+  }
+
+  .li-img {
+    width: 100%;
+    height: 13.5vh;
+  }
+
+  .item-paragraph {
+    height: 11vh;
+    margin-top: 15px;
+    font-size: 25px;
+  }
+
+  .item-text {
+    height: 16.5vh;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv {
+    width: 11%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    width: 40%;
+    height: 5.5vh;
+    font-size: 45px;
+    margin-top: 3vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 29.5px;
+    height: 18vh;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 28px;
+    height: 18.5vh;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (device-width: 834px) and (device-height: 1194px) {
+  .title-div {
+    height: 3.5vh;
+  }
+
+  .title-div-modified {
+    height: 3.5vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 70vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17.5vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .item-img {
+    width: 30%;
+    height: 11.5vh;
+  }
+
+  .li-img {
+    height: 11.5vh;
+  }
+
+  .item-paragraph {
+    height: 9vh;
+    margin-top: 15px;
+    font-size: 23px;
+  }
+
+  .item-text {
+    height: 14vh;
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 11%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    width: 40%;
+    height: 5.5vh;
+    font-size: 45px;
+    margin-top: 1.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 28px;
+    height: 19vh;
+    line-height: 2;
+    letter-spacing: 0.9px;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 1.7px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 28px;
+    height: 20vh;
+    line-height: 2;
+  }
+}
+
+@media screen and (device-width: 834px) and (device-height: 1112px) {
+  .title-div {
+    height: 3.8vh;
+  }
+
+  .title-div-modified {
+    height: 3.8vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 73vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17.5vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .item-img {
+    width: 30%;
+  }
+
+  .item-paragraph {
+    height: 9vh;
+    margin-top: 15px;
+    font-size: 23px;
+  }
+
+  .item-text {
+    height: 14.5vh;
+    width: 80%;
+    margin-top: 15px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv {
+    width: 11%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    width: 40%;
+    height: 5.5vh;
+    font-size: 45px;
+    margin-top: 1.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 27.5px;
+    height: 18vh;
+    margin-top: 7vh;
+    line-height: 1.8;
+    letter-spacing: 1px;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 0.1px;
+    line-height: 2.4;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 27.5px;
+  }
+}
+
+@media screen and (device-width: 820px) and (device-height: 1180px) {
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 73vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17.5vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .item-img {
+    width: 29.5%;
+    height: 11vh;
+  }
+
+  .li-img {
+    height: 11vh;
+  }
+
+  .item-paragraph {
+    height: 9vh;
+    margin-top: 10px;
+    font-size: 23px;
+  }
+
+  .item-text {
+    height: 13.5vh;
+    width: 80%;
+    margin-top: 10px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 11%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    width: 40%;
+    height: 5.5vh;
+    font-size: 45px;
+    margin-top: 1.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 27.5px;
+    height: 18vh;
+    margin-top: 7vh;
+    letter-spacing: 1px;
+  }
+
+  .bootstrap-text-paragraph {
+    line-height: 2;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 1.5px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 28.5px;
+  }
+}
+
+@media screen and (device-width: 810px) and (device-height: 1080px) {
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin-top: 1.5vh;
+    height: 8.5vh;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 48vh;
+  }
+
+  .blurred-section {
+    height: 73vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17.5vh;
+  }
+
+  .left-ul,
+  .right-ul {
+    height: 48vh;
+  }
+
+  .item-img {
+    width: 28%;
+    height: 12vh;
+  }
+
+  .li-img {
+    height: 12vh;
+  }
+
+  .item-paragraph {
+    height: 9vh;
+    margin-top: 10px;
+    font-size: 23px;
+  }
+
+  .item-text {
+    height: 14.5vh;
+    margin-top: 6px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv {
+    width: 11%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    width: 40%;
+    height: 5.5vh;
+    font-size: 45px;
+    margin-top: 1.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 27px;
+    height: 18vh;
+    margin-top: 7vh;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 1.5px;
+    line-height: 1.7;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 27px;
+  }
+}
+
+@media screen and (device-width: 1024px) and (device-height: 1366px) {
+  .cont-head {
+    height: 12vh;
+  }
+
+  .cont-head-modified {
+    height: 12vh;
+  }
+
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 30%;
+    height: 3.9vh;
+  }
+
+  .title-div-modified {
+    height: 4vh;
+    width: 30%;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 45px;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin-top: 1.5vh;
+    width: 11vw;
+  }
+
+  /******************  INTRO CONTENT ****************/
+
+  .intro {
+    font-size: 35px;
+  }
+
+  .intro-paragraph {
+    width: 85%;
+  }
+
+  /**** BLURRED SECTION HEAD ****/
+
+
+  .blurred-text-header {
+    font-size: 50px;
+  }
+
+  .blurred-text-paragraph {
+    font-size: 40px;
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .presentation {
+    height: 45vh;
+  }
+
+  .blurred-section {
+    height: 68vh;
+  }
+
+  .left-item,
+  .right-item {
+    width: 100%;
+    height: 17.5vh;
+  }
+
+
+  /******* BLURRED SECTION UL *******/
+
+  .left-ul,
+  .right-ul {
+    height: 45vh;
+  }
+
+  .item-img {
+    width: 33%;
+    height: 12vh;
+  }
+
+  .li-img {
+    height: 12vh;
+  }
+
+  .item-text {
+    height: 14vh;
+    width: 80%;
+    margin-top: 9px;
+  }
+
+  .item-header {
+    font-size: 28px;
+  }
+
+  .item-paragraph {
+    width: 100%;
+    margin-top: 15px;
+    font-size: 27.5px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv,
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 11%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    width: 45%;
+    font-size: 45px;
+    margin-bottom: 8.5vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 33px;
+    height: 18.5vh;
+  }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 1.5px;
+    line-height: 2;
+  }
+
+  .tailwind-text-paragraph {
+    line-height: 2.5;
+  }
+}

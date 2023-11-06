@@ -1,7 +1,7 @@
 {
   "name": "cv-react-version",
   "version": "0.1.0",
-  "homepage": "https://momoelo1.github.io/cv-test",
+  "homepage": "https://momoelo1.github.com/CV-Moad-Elomari",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",

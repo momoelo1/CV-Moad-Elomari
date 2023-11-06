@@ -11,6 +11,8 @@ import "./MidBigPhoneSize.css";
 import "./AllBigPhoneSize.css";
 import "./BigPhoneSize.css";
 import "./AllTabletSize.css";
+import "./TabletSizes.css";
+import "./AllSmallDesktopSize.css";
 import App from "./App";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

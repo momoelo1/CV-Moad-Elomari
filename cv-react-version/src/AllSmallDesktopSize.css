@@ -1,0 +1,477 @@
+@media screen and (max-width: 1450px) and (min-width: 1101px) {
+  /******************  HEAD CONTENT ****************/
+
+  .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px);
+  }
+
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    width: 16%;
+    height: 4.5vh;
+    margin-top: 4.5vh;
+  }
+
+  .title-div-modified {
+    height: 4.5vh;
+    width: 16%;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin: 15px;
+    height: 10vh;
+    width: 6.5vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 5vh 2vw 0 0;
+  }
+
+  .github-modified {
+    display: inline-block;
+    width: 3%;
+  }
+
+  /******************  INTRO CONTENT ****************/
+
+  .intro-head {
+    width: 40%;
+  }
+
+  .intro-paragraph {
+    width: 60%;
+  }
+
+  /******* BLURRED SECTION UL *******/
+
+  .item-img {
+    width: 20%;
+    height: 13vh;
+  }
+
+  .li-img {
+    width: 90%;
+    height: 13vh;
+  }
+
+  .item-text {
+    margin-bottom: 5px;
+  }
+
+  .bootstrap-section,
+  .tailwind-section,
+  .sass-section {
+    width: 90%;
+    height: 28vh;
+  }
+
+  .react-section,
+  .jQuery-section {
+    width: 70%;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv {
+    width: 15%;
+  }
+
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 12%;
+  }
+
+  .bootstrap-text-div,
+  .tailwind-text-div,
+  .sass-text-div {
+    height: 27vh;
+  }
+
+  .react-text-div,
+  .jQuery-text-div {
+    height: 28vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 16px;
+    height: 15vh;
+    line-height: 1.5;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 17.5px;
+    height: 16vh;
+    line-height: 2;
+  }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 720px) {
+  /****  NAME/TITLE ****/
+
+  .title-div {
+    height: 5vh;
+  }
+
+  .title-div-modified {
+    height: 5vh;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin: 10px auto auto 2vw;
+    height: 10vh;
+    width: 5.5vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 4vh 2.5vw 0 0;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 17.5px;
+    height: 16vh;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 800px) {
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 4vh 2.5vw 0 0;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    line-height: 1.8;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 1px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 17.5px;
+    height: 16vh;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 900px) {
+  .title-div {
+    height: 4vh;
+  }
+
+  .title-div-modified {
+    height: 4vh;
+  }
+
+  .head-img-visible {
+    margin: 15px auto auto 2vw;
+    height: 10vh;
+    width: 7vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 4vh 2.5vw 0 0;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    line-height: 2;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (device-width: 1280px) and (device-height: 1024px) {
+  .title-div {
+    height: 3.5vh;
+  }
+
+  .title-div-modified {
+    height: 3.5vh;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin: 10px auto auto 2vw;
+    height: 10vh;
+    width: 8vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 4vh 2.5vw 0 0;
+  }
+
+  .blurred-section {
+    height: 78vh;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 1px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 20px;
+    height: 16vh;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (device-width: 1366px) and (device-height: 768px) {
+  .title-div {
+    height: 4.7vh;
+  }
+
+  .title-div-modified {
+    height: 4.7vh;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin: 10px auto auto 2vw;
+    height: 10vh;
+    width: 6vw;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 4vh 2.5vw 0 0;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 18px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 18px;
+    height: 16vh;
+    line-height: 1.6;
+  }
+}
+
+@media screen and (device-width: 1440px) and (device-height: 900px) {
+  .title-div {
+    height: 4vh;
+  }
+
+  .title-div-modified {
+    height: 4vh;
+  }
+
+  /**** GITHUB LOGO ****/
+
+  .github-class {
+    width: 3%;
+    margin: 4vh 2.5vw 0 0;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph {
+    font-size: 20px;
+  }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 1px;
+    line-height: 1.3;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 20px;
+    height: 17.5vh;
+    line-height: 1.8;
+  }
+}
+
+@media screen and (device-width: 1536px) and (device-height: 864px) {
+  .title-div {
+    height: 4.2vh;
+  }
+
+  .title-div-modified {
+    height: 4.2vh;
+  }
+
+  /**** HEAD IMAGE ****/
+
+  .head-img-visible {
+    margin: 10px auto auto 2vw;
+    height: 10.5vh;
+    width: 6vw;
+  }
+
+  .blurred-text-paragraph {
+    width: 80%;
+    margin: 0 auto;
+    font-size: 32px;
+  }
+
+  .item-paragraph {
+    font-size: 28px;
+  }
+}
+
+@media screen and (device-width: 1920px) and (device-height: 1080px) {
+  .title-div {
+    margin: 45px;
+  }
+
+  .title-div-modified {
+    width: 14%;
+    margin: 4vh 1.5vw auto auto;
+  }
+
+  .title-text-class,
+  .title-text-modified {
+    font-size: 40px;
+  }
+
+  .head-img-visible {
+    height: 11.5vh;
+    width: 6.5vw;
+  }
+
+  /******************  INTRO CONTENT ****************/
+
+  .intro {
+    font-size: 35px;
+  }
+
+  .intro-head {
+    width: 30%;
+    margin: 10px auto;
+    font-size: 45px;
+    color: rgba(4, 1, 9, 0.625);
+  }
+
+  /******************  BLURRED SECTION CONTENT ****************/
+
+  .blurred-section {
+    height: 85vh;
+  }
+
+  .presentation {
+    height: 60vh;
+  }
+
+  /**** BLURRED SECTION HEAD ****/
+
+  .blurred-text-header {
+    font-size: 45px;
+  }
+
+  .blurred-text-paragraph {
+    font-size: 35px;
+  }
+
+  .item-text {
+    height: 15vh;
+    width: 70%;
+    margin-bottom: 8px;
+    text-align: left;
+  }
+
+  .item-header {
+    font-size: 35px;
+  }
+
+  .item-paragraph {
+    font-size: 35px;
+  }
+
+  .progLangHead {
+    font-size: 55px;
+  }
+
+  .cssLibrariesHeader,
+  .jsLibrariesHeader {
+    font-size: 40px;
+  }
+
+  .bootstrapImgDiv,
+  .tailwindImgDiv,
+  .sassImgDiv {
+    width: 14%;
+  }
+
+  .reactImgDiv,
+  .jQueryImgDiv {
+    width: 11.5%;
+  }
+
+  .bootstrap-text-header,
+  .tailwind-text-header,
+  .sass-text-header,
+  .react-text-header,
+  .jQuery-text-header {
+    margin: 1vh auto 6vh auto;
+    font-size: 35px;
+  }
+
+  .bootstrap-text-paragraph,
+  .tailwind-text-paragraph,
+  .sass-text-paragraph,
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    font-size: 24px;
+    letter-spacing: 1.5px;
+    line-height: 1.4;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 0.1px;
+    line-height: 1.6;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    letter-spacing: 0.1px;
+    line-height: 1.6;
+  }
+}

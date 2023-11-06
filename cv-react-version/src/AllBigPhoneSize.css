@@ -1,9 +1,15 @@
 @media screen and (max-width: 410px) and (min-width: 393px) {
   .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     height: 9vh;
   }
 
   .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     height: 9vh;
   }
 
@@ -156,10 +162,16 @@
 
 @media screen and (max-width: 431px) and (min-width: 411px) {
   .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     height: 9vh;
   }
 
   .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
     height: 9vh;
   }
 

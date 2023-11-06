@@ -1,10 +1,14 @@
 @media screen and (device-width: 360px) and (device-height: 640px) {
   .cont-head {
-    background-color: blue;
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   .cont-head-modified {
-    background-color: blue;
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   /****  NAME/TITLE ****/
@@ -131,13 +135,33 @@
   .sass-text-paragraph,
   .react-text-paragraph,
   .jQuery-text-paragraph {
-    font-size: 16px;
+    font-size: 15px;
     height: 20vh;
+  }
+
+  .bootstrap-text-paragraph {
+    line-height: 1.8;
+    height: 18vh;
+  }
+
+  .tailwind-text-paragraph {
+    line-height: 2;
+    height: 19vh;
   }
 }
 
 @media screen and (device-width: 360px) and (device-height: 718px) {
+  .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
 
+  .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
 
   /******************  BLURRED SECTION CONTENT ****************/
 
@@ -146,7 +170,7 @@
   }
 
   .blurred-section {
-    height: 87vh;
+    height: 95vh;
   }
 
   .blurred-text-header {
@@ -207,14 +231,41 @@
   .sass-text-paragraph,
   .react-text-paragraph,
   .jQuery-text-paragraph {
-    font-size: 16px;
+    font-size: 15px;
     height: 14.5vh;
-    letter-spacing: 1px;
+    letter-spacing: 0.2px;
     line-height: 1.6;
+  }
+
+  .bootstrap-text-paragraph {
+    line-height: 1.6;
+    letter-spacing: 0.2px;
+  }
+
+  .tailwind-text-paragraph {
+    line-height: 1.6;
+    letter-spacing: 0.7px;
+  }
+
+  .sass-text-paragraph {
+    line-height: 1.6;
+    letter-spacing: 1px;
   }
 }
 
 @media screen and (device-width: 360px) and (device-height: 720px) {
+  .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
+  .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
   .title-div {
     width: 38%;
     height: 3vh;
@@ -277,9 +328,46 @@
     height: 43vh;
     margin: 10px auto auto;
   }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.9;
+  }
+
+  .sass-text-paragraph {
+    letter-spacing: 0.9px;
+    line-height: 1.9;
+  }
+
+  .react-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+  }
+
+  .jQuery-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (device-width: 360px) and (device-height: 740px) {
+  .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
+  .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
   /****  NAME/TITLE ****/
 
   .title-div {
@@ -407,9 +495,40 @@
     font-size: 16.5px;
     height: 17.5vh;
   }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 0.8px;
+    line-height: 1.4;
+  }
+
+  .tailwind-text-paragraph {
+    line-height: 1.8;
+  }
+
+  .sass-text-paragraph {
+    line-height: 1.8;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    letter-spacing: 0.9px;
+    line-height: 1.4;
+  }
 }
 
 @media screen and (device-width: 360px) and (device-height: 780px) {
+  .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
+  .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+
   .title-div {
     width: 38%;
     height: 2.8vh;
@@ -498,10 +617,32 @@
     font-size: 16px;
     height: 17vh;
   }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.6;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.5;
+  }
 }
 
 @media screen and (device-width: 360px) and (device-height: 800px) {
+  .cont-head {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
 
+  .cont-head-modified {
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+  }
+  
   /****  TITLE ****/
 
   .title-div {
@@ -583,7 +724,28 @@
   .jQuery-text-paragraph {
     font-size: 16px;
     height: 14.5vh;
-    letter-spacing: 1px;
-    line-height: 1.6;
+    line-height: 1.7;
   }
+
+  .bootstrap-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.4;
+  }
+
+  .tailwind-text-paragraph {
+    letter-spacing: 0.7px;
+  }
+
+  .sass-text-paragraph {
+    letter-spacing: 0.7px;
+  }
+
+  .react-text-paragraph,
+  .jQuery-text-paragraph {
+    letter-spacing: 0.7px;
+    line-height: 1.3;
+
+  }
+
+
 }

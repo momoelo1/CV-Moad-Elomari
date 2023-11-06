@@ -1,10 +1,16 @@
 @media screen and (max-width: 393px) and (min-width: 374px) {
   .cont-head {
     height: 9vh;
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   .cont-head-modified {
     height: 9vh;
+    background-color: rgba(61, 75, 104, 0.568627451);
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
   }
 
   /****  TITLE ****/

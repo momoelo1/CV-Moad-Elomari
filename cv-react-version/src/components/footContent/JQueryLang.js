@@ -4,9 +4,9 @@ export default function JQueryLang() {
       <div className="jQuery-text-div">
         <h3 className="jQuery-text-header">jQuery</h3>
         <p className="jQuery-text-paragraph">
-          Creazione di WEB APP tramite l'uso delle librerie{" "}
-          <b style={{ color: "skyblue" }}>jQuery</b> combinando HTML
-          (BOOTSTRAP e TAILWIND comprese) e JAVASCRIPT.
+          Uso di <b style={{color: "#027f96"}}>jQuery</b>, libreria Javascript che fornisce funzioni per
+          manipolare l'albero DOM, gesitire eventi, animazioni, gestire AJAX e
+          comunicare con APIs basate su JSON.
         </p>
       </div>
     </div>
