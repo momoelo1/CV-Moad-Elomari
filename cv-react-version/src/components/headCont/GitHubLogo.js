@@ -1,7 +1,7 @@
 export default function GitHubLogo() {
   return (
     <a
-      href="https://github.com/momoelo1"
+      href="https://github.com/kozukimomo"
       aria-label="Homepage"
       className="footer-octicon github-logo"
       title="GitHub"
