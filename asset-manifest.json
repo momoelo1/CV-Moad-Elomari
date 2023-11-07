@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CV-Moad-Elomari/static/css/main.c57b9a7d.css",
-    "main.js": "/CV-Moad-Elomari/static/js/main.98ed5079.js",
+    "main.js": "/CV-Moad-Elomari/static/js/main.c0e9e672.js",
     "static/media/background-img-test.jpg": "/CV-Moad-Elomari/static/media/background-img-test.737aa08318483417e48c.jpg",
     "static/media/coding-samurai.svg": "/CV-Moad-Elomari/static/media/coding-samurai.0dcbcc85c513fffec394c005770ff62d.svg",
     "static/media/rs.svg": "/CV-Moad-Elomari/static/media/rs.dc155455e86e12200cb5.svg",
@@ -282,10 +282,10 @@
     "static/media/bd.svg": "/CV-Moad-Elomari/static/media/bd.0ad8c443ef4d47ea0497.svg",
     "static/media/id.svg": "/CV-Moad-Elomari/static/media/id.f624e2c8444a7794b357.svg",
     "main.c57b9a7d.css.map": "/CV-Moad-Elomari/static/css/main.c57b9a7d.css.map",
-    "main.98ed5079.js.map": "/CV-Moad-Elomari/static/js/main.98ed5079.js.map"
+    "main.c0e9e672.js.map": "/CV-Moad-Elomari/static/js/main.c0e9e672.js.map"
   },
   "entrypoints": [
     "static/css/main.c57b9a7d.css",
-    "static/js/main.98ed5079.js"
+    "static/js/main.c0e9e672.js"
   ]
 }
